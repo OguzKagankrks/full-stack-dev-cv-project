@@ -1,77 +1,19 @@
 {
-  "brand": { "initial": "A", "name": "Almila Su" },
-  "nav": { "skills": "Skills", "projects": "Projects", "hire": "Hire me", "dark": "Dark Mode", "tr": "TÜRKÇE'YE GEÇ" },
-  "hero": {
-    "eyebrow": "Almila Su",
-    "title1": "Creative thinker",
-    "title2": "Minimalism lover",
-    "desc": "Praesent ullamcorper hendrerit ante sagittis elementum. Vestibulum elementum risus risus, id mollis tortor ultricies sit amet. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-    "btnHire": "Hire me",
-    "btnGit": "Github",
-    "btnIn": "Linkedin"
+  "nav": [
+    {"id":"hero","label":"Ana Sayfa"},
+    {"id":"about","label":"Hakkımda"},
+    {"id":"skills","label":"Yetenekler"},
+    {"id":"projects","label":"Projeler"},
+    {"id":"contact","label":"İletişim"}
+  ],
+  "hero": {"title":"Merhaba, ben Oğuz","subtitle":"Frontend/React Geliştirici","cta":"İletişime Geç"},
+  "about": {"title":"Hakkımda","body":"Kısa biyografi metni burada."},
+  "skills": {"title":"Yetenekler","items":["JavaScript","React","TailwindCSS","Axios","HTML","CSS"]},
+  "projects": {"title":"Projeler","empty":"Yakında projeler eklenecek."},
+  "contact": {
+    "title":"İletişim","cta":"Mesaj Gönder",
+    "placeholders":{"name":"Adınız","email":"E-posta","message":"Mesajınız"},
+    "messages":{"success":"Gönderildi!","error":"Bir hata oluştu","sending":"Gönderiliyor..."}
   },
-  "skills": {
-    "title": "Skills",
-    "items": [
-      { "title": "Java Script", "desc": "Kısa açıklama metni burada." },
-      { "title": "React.Js", "desc": "Kısa açıklama metni burada." },
-      { "title": "Node.Js", "desc": "Kısa açıklama metni burada." }
-    ]
-  },
-  "profile": {
-    "title": "Profile",
-    "leftTitle": "Profile",
-    "kv": [
-      ["Doğum tarihi","00.00.0000"],
-      ["İkamet Şehri","İstanbul"],
-      ["Eğitim Durumu","İstanbul Üniversitesi"],
-      ["Lisans","2020"],
-      ["Tercih Ettiği Rol","Frontend, UI"]
-    ],
-    "rightTitle": "About Me",
-    "p1": "Lorem ipsum, dolor sit amet consectetur adipisicing elit...",
-    "p2": "Minima accusamus ratione soluta aperiam sit voluptate?..."
-  },
-  "projects": {
-    "title": "Projects",
-    "items": [
-      {
-        "id": 1,
-        "name": "Workintech",
-        "desc": "Kısa tanım metni…",
-        "tags": ["react","redux","axios"],
-        "img": "/assets/p1.jpg",
-        "github": "#",
-        "live": "#"
-      },
-      {
-        "id": 2,
-        "name": "Random Jokes",
-        "desc": "Kısa tanım metni…",
-        "tags": ["react","redux","axios"],
-        "img": "/assets/p2.jpg",
-        "github": "#",
-        "live": "#"
-      },
-      {
-        "id": 3,
-        "name": "Journey",
-        "desc": "Kısa tanım metni…",
-        "tags": ["react","redux","axios"],
-        "img": "/assets/p3.jpg",
-        "github": "#",
-        "live": "#"
-      }
-    ]
-  },
-  "cta": {
-    "line1": "Let’s work together on",
-    "line2": "your next product.",
-    "email": "almilasucode@gmail.com",
-    "rightLinks": [
-      ["Personal Blog","#"],
-      ["Github","#"],
-      ["Linkedin","#"]
-    ]
-  }
+  "footer":"© 2025 Oğuz Kağan. Tüm hakları saklıdır."
 }

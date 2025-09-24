@@ -1,0 +1,19 @@
+{
+  "nav": [
+    {"id":"hero","label":"Home"},
+    {"id":"about","label":"About"},
+    {"id":"skills","label":"Skills"},
+    {"id":"projects","label":"Projects"},
+    {"id":"contact","label":"Contact"}
+  ],
+  "hero": {"title":"Hi, I'm Oguz","subtitle":"Frontend/React Developer","cta":"Contact Me"},
+  "about": {"title":"About","body":"A short bio goes here."},
+  "skills": {"title":"Skills","items":["JavaScript","React","TailwindCSS","Axios","HTML","CSS"]},
+  "projects": {"title":"Projects","empty":"Projects will be added soon."},
+  "contact": {
+    "title":"Contact","cta":"Send Message",
+    "placeholders":{"name":"Your name","email":"E-mail","message":"Your message"},
+    "messages":{"success":"Sent!","error":"Something went wrong","sending":"Sending..."}
+  },
+  "footer":"© 2025 Oguz Kagan. All rights reserved."
+}

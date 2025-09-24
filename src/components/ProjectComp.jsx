@@ -1,4 +1,4 @@
-export default function SkillsComp() {
+export default function ProjectComp() {
   return (
 
 
