@@ -1,6 +1,5 @@
 import './App.css'
 import 'react-toastify/dist/ReactToastify.css'
-
 import Header from './components/header.jsx';
 import ProjectComp from './components/projectComp.jsx'
 import SkillsComp from './components/skillsComp.jsx';
