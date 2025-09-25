@@ -67,12 +67,12 @@
   
   "footer": {
     "cta": "Bir sonraki ürününde birlikte çalışalım.",
-    "email": "almilasucode@gmail.com",
+    "email": "okagankrks@gmail.com",
     "labels": { "blog": "Kişisel Blog" },
     "links": {
-      "blog": "https://senin-blogun.com",
-      "github": "https://github.com/kullanici",
-      "linkedin": "https://www.linkedin.com/in/kullanici/"
+      "blog": "",
+      "github": "",
+      "linkedin": ""
     }
   }
 

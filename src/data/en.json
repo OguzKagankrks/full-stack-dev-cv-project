@@ -68,12 +68,12 @@
   
   "footer": {
     "cta": "Let’s work together on your next product.",
-    "email": "almilasucode@gmail.com",
+    "email": "okagankrks@gmail.com",
     "labels": { "blog": "Personal Blog" },
     "links": {
-      "blog": "https://your-blog.com",
-      "github": "https://github.com/username",
-      "linkedin": "https://www.linkedin.com/in/username/"
+      "blog": "",
+      "github": "",
+      "linkedin": ""
     }
   }
 
