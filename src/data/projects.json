@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Workintech",
+    "desc": "A simple, analytics–driven setup; cookie opt-out, static assets on CDN and highly performant.",
+    "tags": ["react", "node", "axios"],
+    "img": "workintech.png",
+    "github": "https://github.com/kullanici/workintech",
+    "site": "https://workintech.vercel.app"
+  },
+  {
+    "id": 2,
+    "title": "Random Jokes",
+    "desc": "A simple, analytics–driven setup; cookie opt-out, static assets on CDN and highly performant.",
+    "tags": ["react", "redux", "axios"],
+    "img": "jokes.png",
+    "github": "https://github.com/kullanici/jokes",
+    "site": "https://jokes.vercel.app"
+  },
+  {
+    "id": 3,
+    "title": "Journey",
+    "desc": "A simple, analytics–driven setup; cookie opt-out, static assets on CDN and highly performant.",
+    "tags": ["react", "node", "axios"],
+    "img": "journey.png",
+    "github": "https://github.com/kullanici/journey",
+    "site": "https://journey.vercel.app"
+  }
+]

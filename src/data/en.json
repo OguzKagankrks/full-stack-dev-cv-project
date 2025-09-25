@@ -6,14 +6,73 @@
     {"id":"projects","label":"Projects"},
     {"id":"contact","label":"Contact"}
   ],
-  "hero": {"title":"Hi, I'm Oguz","subtitle":"Frontend/React Developer","cta":"Contact Me"},
-  "about": {"title":"About","body":"A short bio goes here."},
-  "skills": {"title":"Skills","items":["JavaScript","React","TailwindCSS","Axios","HTML","CSS"]},
-  "projects": {"title":"Projects","empty":"Projects will be added soon."},
-  "contact": {
-    "title":"Contact","cta":"Send Message",
-    "placeholders":{"name":"Your name","email":"E-mail","message":"Your message"},
-    "messages":{"success":"Sent!","error":"Something went wrong","sending":"Sending..."}
+  "hero": {
+    "title":"Hi, I'm Oguz",
+    "subtitle":"Frontend/React Developer",
+    "cta":"Contact Me"
   },
-  "footer":"© 2025 Oguz Kagan. All rights reserved."
+  "about": {
+    "title":"About",
+    "body":"A short bio goes here."
+  },
+  "skills": {
+    "title":"Skills",
+    "items":["JavaScript","React","TailwindCSS","Axios","HTML","CSS"],
+    "cards": [
+      { 
+        "title": "JavaScript", 
+        "body": "Modern web development foundation. Experienced in ES6+ features, asynchronous programming, and DOM manipulation." 
+      },
+      { 
+        "title": "React.js", 
+        "body": "Component-based UI development. Expert in Hooks, state management, and performance optimization." 
+      },
+      { 
+        "title": "Node.js", 
+        "body": "Backend development and API creation. Proficient in Express.js, middleware usage, and database integration." 
+      }
+    ]
+  },
+  "profile": {
+    "title": "Profile",
+    "leftTitle": "Profile",
+    "fields": [
+      { "label": "Date of Birth", "value": "1997-01-26" },
+      { "label": "City", "value": "Istanbul" },
+      { "label": "Education", "value": "Trakya Univ., Economics — BAc, 2016" },
+      { "label": "Preferred Role", "value": "Frontend, UI" }
+    ],
+    "rightTitle": "About Me",
+    "p1": "A passionate web developer focused on user experience, constantly improving my skills in modern technologies.",
+    "p2": "I enjoy creating innovative solutions with attention to detail and collaborative work approach."
+  },
+ 
+  
+  "contact": {
+    "title":"Contact",
+    "cta":"Send Message",
+    "placeholders":{
+      "name":"Your name",
+      "email":"E-mail",
+      "message":"Your message"
+    },
+    "messages":{
+      "success":"Sent!",
+      "error":"Something went wrong",
+      "sending":"Sending..."
+    }
+  },
+  
+  "footer": {
+    "cta": "Let’s work together on your next product.",
+    "email": "almilasucode@gmail.com",
+    "labels": { "blog": "Personal Blog" },
+    "links": {
+      "blog": "https://your-blog.com",
+      "github": "https://github.com/username",
+      "linkedin": "https://www.linkedin.com/in/username/"
+    }
+  }
+
+
 }

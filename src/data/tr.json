@@ -6,14 +6,73 @@
     {"id":"projects","label":"Projeler"},
     {"id":"contact","label":"İletişim"}
   ],
-  "hero": {"title":"Merhaba, ben Oğuz","subtitle":"Frontend/React Geliştirici","cta":"İletişime Geç"},
-  "about": {"title":"Hakkımda","body":"Kısa biyografi metni burada."},
-  "skills": {"title":"Yetenekler","items":["JavaScript","React","TailwindCSS","Axios","HTML","CSS"]},
-  "projects": {"title":"Projeler","empty":"Yakında projeler eklenecek."},
-  "contact": {
-    "title":"İletişim","cta":"Mesaj Gönder",
-    "placeholders":{"name":"Adınız","email":"E-posta","message":"Mesajınız"},
-    "messages":{"success":"Gönderildi!","error":"Bir hata oluştu","sending":"Gönderiliyor..."}
+  "hero": {
+    "title":"Merhaba, ben Oğuz",
+    "subtitle":"Frontend/React Geliştirici",
+    "cta":"İletişime Geç"
   },
-  "footer":"© 2025 Oğuz Kağan. Tüm hakları saklıdır."
-}
+  "about": {
+    "title":"Hakkımda",
+    "body":"Kısa biyografi metni burada."
+  },
+  "skills": {
+    "title":"Yetenekler",
+    "items":["JavaScript","React","TailwindCSS","Axios","HTML","CSS"],
+    "cards": [
+      { 
+        "title": "JavaScript", 
+        "body": "Modern web geliştirmede temel dil. ES6+ özellikleri, asenkron programlama ve DOM manipülasyonunda deneyimli." 
+      },
+      { 
+        "title": "React.js", 
+        "body": "Component-based UI geliştirme. Hooks, state management ve performans optimizasyonu konularında uzman." 
+      },
+      { 
+        "title": "Node.js", 
+        "body": "Backend geliştirme ve API oluşturma. Express.js, middleware kullanımı ve veritabanı entegrasyonu." 
+      }
+    ]
+  },
+  "profile": {
+    "title": "Profil",
+    "leftTitle": "Kişisel Bilgiler",
+    "fields": [
+      { "label": "Doğum tarihi", "value": "24.03.1998" },
+      { "label": "İkamet Şehri", "value": "Ankara" },
+      { "label": "Eğitim Durumu", "value": "Hacettepe Ün., Biyoloji — Lisans, 2016" },
+      { "label": "Tercih Ettiği Rol", "value": "Frontend, UI" }
+    ],
+    "rightTitle": "Hakkımda",
+    "p1": "Web geliştirme alanında kendimi sürekli geliştiren, kullanıcı deneyimine odaklı bir geliştiriciyim.",
+    "p2": "Modern teknolojilerle yaratıcı çözümler üretmeyi seven, detaycı ve işbirlikçi çalışma tarzım var."
+  },
+
+  "contact": {
+    "title":"İletişim",
+    "cta":"Mesaj Gönder",
+    "placeholders":{
+      "name":"Adınız",
+      "email":"E-posta",
+      "message":"Mesajınız"
+    },
+    "messages":{
+      "success":"Gönderildi!",
+      "error":"Bir hata oluştu",
+      "sending":"Gönderiliyor..."
+    }
+  },
+  
+  "footer": {
+    "cta": "Bir sonraki ürününde birlikte çalışalım.",
+    "email": "almilasucode@gmail.com",
+    "labels": { "blog": "Kişisel Blog" },
+    "links": {
+      "blog": "https://senin-blogun.com",
+      "github": "https://github.com/kullanici",
+      "linkedin": "https://www.linkedin.com/in/kullanici/"
+    }
+  }
+
+
+  
+}     

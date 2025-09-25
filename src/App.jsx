@@ -5,42 +5,37 @@ import Header from './components/Header.jsx';
 import ProjectComp from './components/ProjectComp'
 import SkillsComp from './components/SkillsComp.jsx';
 import { AppProvider } from './store/AppContext'
-import Hero from './components/Hero'
+import Hero from './components/Hero.jsx';
+import ProfileComp from './components/profileComp.jsx';
+import Footer from './components/Footer.jsx';
+
 
 function App() {
   const test = () => toast('Başarılı bir şekilde giriş yaptınız!')
 
   return (
 
- <AppProvider>
-    <div>
+<AppProvider>
+  
+  <div className="min-h-dvh bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-100">
 
-      <Header />
-
-    </div>
+      <Header />  
     
+  <main >
    
-    <div className="min-h-screen flex flex-col items-center justify-center bg-zinc-900/15 gap-6 p-8">
+      <Hero />
 
-        <h1 className="text-4xl font-bold text-blue-600">Full Stack Dev-CV</h1>
-
-        <button
-          onClick={test}
-          className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg duration-300 transform hover:scale-105"
-        >
-          Test Button
-        </button>
-
-        <p className="text-lg text-gray-700">Çalışıyor</p>
-      </div>
-          
       <SkillsComp />
+
+      <ProfileComp />
 
       <ProjectComp />
   
-
-
-    </AppProvider>
+     
+  </main>
+   <Footer />
+ </div>
+</AppProvider>
   )
 }
 
