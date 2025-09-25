@@ -27,6 +27,7 @@ export default function ProjectComp() {
       ts: Date.now(),
     }).catch(() => {})
 
+  
   return (
     <section id="projects" className="container mx-auto px-4 pt-8 pb-16">
       <div className="mx-auto max-w-[1140px]">
