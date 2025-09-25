@@ -5,17 +5,17 @@
     "desc": "A simple, analytics–driven setup; cookie opt-out, static assets on CDN and highly performant.",
     "tags": ["react", "node", "axios"],
     "img": "workintech.png",
-    "github": "https://github.com/kullanici/workintech",
-    "site": "https://workintech.vercel.app"
+    "github": "",
+    "site": ""
   },
   {
     "id": 2,
-    "title": "Random Jokes",
+    "title": "Teknolojik Yemekler",
     "desc": "A simple, analytics–driven setup; cookie opt-out, static assets on CDN and highly performant.",
     "tags": ["react", "redux", "axios"],
-    "img": "jokes.png",
-    "github": "https://github.com/kullanici/jokes",
-    "site": "https://jokes.vercel.app"
+    "img": "pizza-place.png",
+    "github": "https://github.com/OguzKagankrks/fsweb-s8-challenge-pizza",
+    "site": "https://github.com/OguzKagankrks/fsweb-s8-challenge-pizza"
   },
   {
     "id": 3,
@@ -24,6 +24,6 @@
     "tags": ["react", "node", "axios"],
     "img": "ai-verified.png",
     "github": "https://github.com/OguzKagankrks/Multi-Ai-Verification",
-    "site": "https://journey.vercel.app"
+    "site": "https://github.com/OguzKagankrks/Multi-Ai-Verification"
   }
 ]
