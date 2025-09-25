@@ -47,7 +47,10 @@
     "p2": "I enjoy creating innovative solutions with attention to detail and collaborative work approach."
   },
  
-  
+  "projects": {
+  "title": "Projects",
+  "empty": "Projects will be added soon."
+},
   "contact": {
     "title":"Contact",
     "cta":"Send Message",

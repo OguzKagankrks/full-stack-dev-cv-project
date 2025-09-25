@@ -46,7 +46,10 @@
     "p1": "Web geliştirme alanında kendimi sürekli geliştiren, kullanıcı deneyimine odaklı bir geliştiriciyim.",
     "p2": "Modern teknolojilerle yaratıcı çözümler üretmeyi seven, detaycı ve işbirlikçi çalışma tarzım var."
   },
-
+"projects": {
+  "title": "Projeler",
+  "empty": "Yakında projeler eklenecek."
+},
   "contact": {
     "title":"İletişim",
     "cta":"Mesaj Gönder",
