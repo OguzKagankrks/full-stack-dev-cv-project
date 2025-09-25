@@ -1,13 +1,13 @@
 import './App.css'
 import 'react-toastify/dist/ReactToastify.css'
 
-import Header from './components/Header.jsx';
-import ProjectComp from './components/ProjectComp'
-import SkillsComp from './components/SkillsComp.jsx';
+import Header from './components/header.jsx';
+import ProjectComp from './components/projectComp.jsx'
+import SkillsComp from './components/skillsComp.jsx';
 import { AppProvider, useApp } from './store/AppContext'
-import Hero from './components/Hero.jsx';
+import Hero from './components/hero.jsx'
 import ProfileComp from './components/profileComp.jsx';
-import Footer from './components/Footer.jsx';
+import Footer from './components/footer.jsx';
 
 
 import { ToastContainer } from 'react-toastify'
