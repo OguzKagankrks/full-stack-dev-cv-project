@@ -12,7 +12,7 @@ function resolveImg(file) {
     : new URL(`../assets/${file}`, import.meta.url).href
 }
 
-export default function Projects() {
+export default function ProjectComp() {
   const { content, state } = useApp()
   const list = state.lang === 'tr' ? projectsTR : projectsEN
 
