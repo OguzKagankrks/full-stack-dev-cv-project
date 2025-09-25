@@ -1,6 +1,6 @@
 import { useApp } from '../store/AppContext'
 
-export default function Skills() {
+export default function SkillsComp() {
   const { content, state } = useApp()
   const title = content.skills?.title ?? (state.lang === 'tr' ? 'Yetenekler' : 'Skills')
   const cards = content.skills?.cards ?? []

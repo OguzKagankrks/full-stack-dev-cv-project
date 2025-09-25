@@ -1,7 +1,7 @@
 
 import { useApp } from '../store/AppContext'
 
-export default function Profile(){
+export default function ProfileComp(){
   const { content } = useApp()
   const f = content.profile
 
