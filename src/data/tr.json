@@ -1,11 +1,12 @@
 {
-  "nav": [
-    {"id":"hero","label":"Ana Sayfa"},
-    {"id":"about","label":"Hakkımda"},
-    {"id":"skills","label":"Yetenekler"},
-    {"id":"projects","label":"Projeler"},
-    {"id":"contact","label":"İletişim"}
+  "nav":[
+  {"id":"skills","label":"Yetenekler"},
+  {"id":"projects","label":"Projeler"}
+
   ],
+
+  "header": { "hire": "Beni İşe Al" },
+
   "hero": {
     "title":"Merhaba, ben Oğuz",
     "subtitle":"Frontend/React Geliştirici",
@@ -37,9 +38,9 @@
     "title": "Profil",
     "leftTitle": "Kişisel Bilgiler",
     "fields": [
-      { "label": "Doğum tarihi", "value": "24.03.1998" },
-      { "label": "İkamet Şehri", "value": "Ankara" },
-      { "label": "Eğitim Durumu", "value": "Hacettepe Ün., Biyoloji — Lisans, 2016" },
+      { "label": "Doğum tarihi", "value": "26.01.1997" },
+      { "label": "İkamet Şehri", "value": "İstanbul" },
+      { "label": "Eğitim Durumu", "value": "Trakya Ün., İktisat — Lisans, 2015" },
       { "label": "Tercih Ettiği Rol", "value": "Frontend, UI" }
     ],
     "rightTitle": "Hakkımda",

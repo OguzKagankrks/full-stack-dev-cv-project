@@ -92,7 +92,7 @@ export default function Header() {
 
       
             <a
-              href="#contact"
+              href=""
               className="inline-flex h-[52px] items-center justify-center rounded-[6px] border border-[#3730A3] bg-white px-8 text-[18px] leading-7 font-medium text-[#3730A3] dark:bg-transparent"
             >
               Hire me

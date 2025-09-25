@@ -2,6 +2,8 @@
 import { createContext, useContext, useEffect, useReducer } from 'react'
 import tr from '../data/tr.json'
 import en from '../data/en.json'
+import projectsEN from '../data/projects.en.json'
+import projectsTR from '../data/projects.tr.json'
 
 const Ctx = createContext()
 
@@ -13,7 +15,7 @@ const initialState = {
 function reducer(state, action) {
   switch (action.type) {
     case 'TOGGLE_THEME': {
-      const next = state.theme === 'dark' ? 'light' : 'dark'
+      const next = state.theme === 'dark' ? 'light' : 'dark' 
       return { ...state, theme: next }
     }
     case 'SET_THEME':
@@ -29,13 +31,13 @@ export function AppProvider({ children }) {
   const [state, dispatch] = useReducer(reducer, initialState)
 
 
-  const content = state.lang === 'tr' ? tr : en
+  const content  = state.lang === 'tr' ? tr  : en
+  const projects = state.lang === 'tr' ? projectsTR : projectsEN
 
 
   useEffect(() => {
     const root = document.documentElement
-    const isDark = state.theme === 'dark'
-    root.classList.toggle('dark', isDark)    
+    root.classList.toggle('dark', state.theme === 'dark')
     localStorage.setItem('theme', state.theme)
   }, [state.theme])
 
@@ -46,10 +48,11 @@ export function AppProvider({ children }) {
 
 
   const toggleTheme = () => dispatch({ type: 'TOGGLE_THEME' })
-  const toggleLang  = () => dispatch({ type: 'SET_LANG', lang: state.lang === 'tr' ? 'en' : 'tr' })
+  const toggleLang  = () =>
+    dispatch({ type: 'SET_LANG', lang: state.lang === 'tr' ? 'en' : 'tr' })
 
   return (
-    <Ctx.Provider value={{ state, dispatch, content, toggleTheme, toggleLang }}>
+    <Ctx.Provider value={{ state, dispatch, content, projects, toggleTheme, toggleLang }}>
       {children}
     </Ctx.Provider>
   )

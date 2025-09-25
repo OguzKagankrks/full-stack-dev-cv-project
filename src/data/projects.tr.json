@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Workintech",
+    "desc": "Basit, analitik odaklı bir kurulum; çerez reddi, CDN üzerinden statik varlıklar ve yüksek performans.",
+    "tags": ["react", "node", "axios"],
+    "img": "workintech.png",
+    "github": "https://github.com/kullanici/workintech",
+    "site": "https://workintech.vercel.app"
+  },
+  {
+    "id": 2,
+    "title": "Rastgele Şakalar",
+    "desc": "Basit, analitik odaklı bir kurulum; çerez reddi, CDN üzerinden statik varlıklar ve yüksek performans.",
+    "tags": ["react", "redux", "axios"],
+    "img": "jokes.png",
+    "github": "https://github.com/kullanici/jokes",
+    "site": "https://jokes.vercel.app"
+  },
+  {
+    "id": 3,
+    "title": "Ai ile Proje",
+    "desc": "En büyük Ai'lar ile aradığınız bilgiye en doğru haliyle erişin. Halisünasyon ortadan kaldırın. Ai ile oluşturulmuştur. ",
+    "tags": ["react", "node", "axios"],
+    "img": "ai-verified.png",
+    "github": "",
+    "site": ""
+  }
+]

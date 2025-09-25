@@ -45,7 +45,7 @@ export default function Hero() {
           <div className="mt-10 flex flex-wrap items-center gap-3">
           
             <a
-              href="#contact"
+              href=""
               className="inline-flex h-[52px] items-center justify-center rounded-[6px] bg-[#3730A3] px-8 text-[18px] leading-7 font-medium text-white"
             >
               {state.lang === 'tr' ? 'Beni işe al' : 'Hire me'}
@@ -53,7 +53,7 @@ export default function Hero() {
 
       
             <a
-              href={content.footer?.links?.github ?? '#'}
+              href={"https://github.com/OguzKagankrks" ?? '#'}
               target="_blank"
               className="inline-flex h-[52px] items-center justify-center gap-2 rounded-[6px] border border-[#3730A3] bg-white px-5 dark:bg-transparent"
             >
@@ -76,7 +76,7 @@ export default function Hero() {
       
         <div className="hidden md:block justify-self-end">
           <img
-            src={new URL('../assets/hero.png', import.meta.url).href} 
+            src={new URL('../assets/hero-office.png', import.meta.url).href} 
             alt="Hero"
             className="w-[476px] h-[375px] object-cover rounded-[18px]"
             style={{

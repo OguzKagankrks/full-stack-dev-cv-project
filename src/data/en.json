@@ -1,11 +1,12 @@
 {
-  "nav": [
-    {"id":"hero","label":"Home"},
-    {"id":"about","label":"About"},
-    {"id":"skills","label":"Skills"},
-    {"id":"projects","label":"Projects"},
-    {"id":"contact","label":"Contact"}
+  "nav":[
+  {"id":"skills","label":"Skills"},
+  {"id":"projects","label":"Projects"}
+
   ],
+  
+  "header": { "hire": "Hire me" },
+
   "hero": {
     "title":"Hi, I'm Oguz",
     "subtitle":"Frontend/React Developer",
@@ -39,7 +40,7 @@
     "fields": [
       { "label": "Date of Birth", "value": "1997-01-26" },
       { "label": "City", "value": "Istanbul" },
-      { "label": "Education", "value": "Trakya Univ., Economics — BAc, 2016" },
+      { "label": "Education", "value": "Trakya Univ., Economics — BAc, 2015" },
       { "label": "Preferred Role", "value": "Frontend, UI" }
     ],
     "rightTitle": "About Me",
